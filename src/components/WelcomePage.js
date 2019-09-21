@@ -1,5 +1,6 @@
 import React from "react";
 import { Route } from 'react-router';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import CharacterList from './CharacterList';
 import CharacterCard from './CharacterCard';
 
@@ -18,11 +19,12 @@ export default function WelcomePage() {
     </section>
     
     // Where does the LINK section go?
-    // <div>
-    //   <ul>
-    //     <li><Link to ='/'>Home</Link></li>
-    //     <li><Link to ='/characters'>Characters</Link></li>
-    //   </ul>
-    // <div/>
+    <div>
+      <ul>
+        <li><Link to ='/'>Home</Link></li>
+        <li><Link to ='/characters'>Characters</Link></li>
+      </ul>
+    <div/>
+    
   );
 }

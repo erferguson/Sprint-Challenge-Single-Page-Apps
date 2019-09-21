@@ -3,11 +3,9 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 import Header from "./components/Header.js";
 
-import CharacterList from './components/CharacterList'
 import WelcomePage from "./components/WelcomePage.js";
+import CharacterList from './components/CharacterList'
 import CharacterCard from "./components/CharacterCard.js";
-
-
 
 export default function App() {
   return (
