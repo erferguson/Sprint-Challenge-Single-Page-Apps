@@ -16,5 +16,13 @@ export default function WelcomePage() {
         />
       </header>
     </section>
+    
+    // Where does the LINK section go?
+    // <div>
+    //   <ul>
+    //     <li><Link to ='/'>Home</Link></li>
+    //     <li><Link to ='/characters'>Characters</Link></li>
+    //   </ul>
+    // <div/>
   );
 }
