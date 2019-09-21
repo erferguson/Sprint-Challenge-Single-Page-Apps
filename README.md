@@ -27,7 +27,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: >> 
+1.) Prevents the "white screen flash" so no hard refresh needed. Feels smoother for the user. 
+2.)More efficient as no new requests are sent to a server. 
 
 ## Project Set Up
 
